@@ -1,3 +1,40 @@
 html {
   font-size: 10px;
 }
+.container {
+  background-color: palegreen;
+  height: 100vh;
+  display: flex;
+}
+.navbar {
+  background-color: violet;
+  padding: 2rem;
+}
+.content {
+  background-color: rgb(250, 250, 125);
+  padding: 1rem;
+  flex-grow: 1;
+}
+.header {
+  background-color: salmon;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.about {
+  background-color: salmon;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.projects {
+  background-color: salmon;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+}
