@@ -1,0 +1,71 @@
+html {
+  font-size: 10px;
+}
+.container {
+  background-color: palegreen;
+  height: 100vh;
+  display: flex;
+}
+.navbar {
+  background-color: salmon;
+  padding: 2rem;
+  flex-basis: 1 0%;
+}
+.content {
+  background-color: rgb(250, 250, 125);
+  padding: 1rem;
+  flex-grow: 1;
+}
+.header {
+  background-color: salmon;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.about {
+  background-color: salmon;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.projects {
+  background-color: salmon;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.cards-container {
+  display: flex;
+  background-color: mediumseagreen;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: peru;
+  margin: 1rem;
+  padding: 1rem;
+}
+.card-image-container {
+  height: 20rem;
+  width: 20rem;
+  margin-bottom: 1rem;
+}
+.card-image {
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.card-title {
+  background-color: blueviolet;
+}
+.card-subtitle {
+  background-color: gray;
+}
+.card-info {
+}
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+}
