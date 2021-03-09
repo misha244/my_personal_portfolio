@@ -18,6 +18,10 @@ body {
   width: 100%;
   text-align: right;
 }
+.navbar-links {
+  color: bisque;
+  text-decoration: none;
+}
 button {
   background-color: darkslateblue;
   color: thistle;
