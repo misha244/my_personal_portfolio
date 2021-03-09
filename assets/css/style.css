@@ -23,12 +23,6 @@ body {
   color: white;
   text-decoration: none;
 }
-button {
-  background-color: blue;
-  color: thistle;
-  padding: 0.5rem;
-}
-
 .main-section {
   background-color: seashell;
   display: block;
@@ -45,6 +39,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   width: 25rem;
+  border: solid yellow 1.5rem;
   border-radius: 20rem;
 }
 .header {
