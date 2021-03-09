@@ -5,6 +5,7 @@ body {
   background-color: thistle;
 }
 .navbar-container {
+  background-color: olive;
   padding: 1rem, 0;
 }
 .navbar {
@@ -14,12 +15,42 @@ body {
   position: sticky;
   top: 0;
   width: 100%;
+  text-align: right;
 }
-.profile-photo-container {
+.button {
+  background-color: darkslateblue;
+  color: darkslateblue;
+}
 
-  }
-.profile-photo {
+.main-section {
+  background-color: orange;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30vh
+}
+
+.profile-photo-container {
+  padding: 10rem 3rem 1rem 3rem;
+}
+.profile-photo {
+  background-color: orchid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25rem;
+  border-radius: 20rem;
+}
+.social-media {
+  background-color: orangered;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.section-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section {
+  text-align: center;
+}
