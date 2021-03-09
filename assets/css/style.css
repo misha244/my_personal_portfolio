@@ -11,7 +11,7 @@ body {
 }
 .navbar {
   padding: 1rem 1rem;
-  background-color: red;
+  background-color: mediumblue;
   font-size: 2rem;
   position: sticky;
   top: 0;
@@ -39,7 +39,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 25rem;
-  border: solid yellow 1.5rem;
+  border: solid red 1.5rem;
   border-radius: 20rem;
 }
 .header {
@@ -55,6 +55,9 @@ body {
   text-align: center;
   position: sticky;
   bottom: 0%;
+}
+.icon {
+  margin: 0 2rem 0 2rem;
 }
 .section-container {
   display: flex;
