@@ -31,7 +31,7 @@ body {
 }
 
 .profile-photo-container {
-  padding: 20rem 3rem 5rem 3rem;
+  padding: 20rem 3rem 2rem 3rem;
 }
 .profile-photo {
   background-color: orchid;
@@ -43,7 +43,7 @@ body {
   border-radius: 20rem;
 }
 .header {
-  margin-top: 2rem;
+  margin-top: 3rem;
   font-size: 3rem;
   font-weight: bolder;
   text-align: center;
