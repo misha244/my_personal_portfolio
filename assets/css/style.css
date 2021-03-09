@@ -4,17 +4,22 @@ html {
 body {
   background-color: thistle;
 }
+.navbar-container {
+  padding: 1rem, 0;
+}
 .navbar {
+  padding: 1rem;
   background-color: darkslateblue;
   font-size: 2rem;
-  position: absolute;
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 .profile-photo-container {
-  height: 20rem;
-  width: 20rem;
-  margin-bottom: 1rem;
+
   }
 .profile-photo {
-  height: 100%;
-  max-width: 100%;
-  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30vh
