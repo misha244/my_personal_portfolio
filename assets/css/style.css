@@ -50,6 +50,7 @@ body {
   font-weight: bolder;
   text-align: center;
 }
+/* Social Media Links properties */
 .social-media {
   background-color: yellow;
   padding: 0.75rem;
@@ -61,6 +62,7 @@ body {
 .icon {
   margin: 0 2rem 0 2rem;
 }
+
 /* Text Section properties */
 .section-container {
   display: flex;
@@ -69,8 +71,18 @@ body {
   justify-content: space-between;
 }
 .section {
-  background-color: aquamarine;
+  background-color: paleturquoise;
   font-size: 1.5rem;
-  width: 50vh;
+  width: 60vh;
   margin: 1rem;
+}
+/* Contact Section properties */
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+.contact-info {
+}
+.contact-form-container {
 }
