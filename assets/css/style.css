@@ -5,6 +5,7 @@ body {
   background-color: honeydew;
   font-family: Helvetica;
 }
+/* Nav Bar properties*/
 .navbar-container {
   background-color: olive;
   padding: 1rem, 0;
@@ -23,6 +24,7 @@ body {
   color: white;
   text-decoration: none;
 }
+/* Photo Section properties */
 .main-section {
   background-color: seashell;
   display: block;
@@ -50,7 +52,7 @@ body {
 }
 .social-media {
   background-color: yellow;
-  padding: 1rem;
+  padding: 0.75rem;
   font-size: 2rem;
   text-align: center;
   position: sticky;
@@ -59,6 +61,7 @@ body {
 .icon {
   margin: 0 2rem 0 2rem;
 }
+/* Text Section properties */
 .section-container {
   display: flex;
   flex-direction: column;
