@@ -113,8 +113,18 @@ body {
   display: flex;
   flex-direction: row;
   width: auto;
+  font-size: 2rem;
 }
 .contact-info {
 }
 .contact-form-container {
+}
+/* About me Page properties */
+
+/* About section properties */
+.about {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  font-size: 2.5rem;
 }
