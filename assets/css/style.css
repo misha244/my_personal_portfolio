@@ -133,19 +133,22 @@ input[type="text"],
 select,
 textarea {
   width: 100%;
-  padding: 12px;
+  height: 20%;
+  padding: 1rem;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 0.5rem;
   box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+  margin-top: 0.5rem;
+  margin-bottom: 1.6rem;
+}
+.label {
+  margin: 1rem;
 }
 
 input[type="submit"] {
   background-color: red;
   color: white;
-  padding: 12px 20px;
+  padding: 1rem 2rem;
   border: none;
   border-radius: 0px;
   cursor: pointer;
@@ -156,9 +159,10 @@ input[type="submit"]:hover {
 }
 
 .contact-form-container {
-  border-radius: 5px;
+  border-radius: 0;
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 1rem;
+  font-size: 1.5rem;
 }
 
 /* About me Page properties */
@@ -168,7 +172,7 @@ input[type="submit"]:hover {
   display: flex;
   flex-direction: column;
   width: auto;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   margin: 1rem;
 }
 .about-text {
