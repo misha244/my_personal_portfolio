@@ -101,8 +101,29 @@
         baby Call me, beep me If you wanna reach me
       </div>
       <div class="contact-form-container">
-        Call me (call me) on the line Call me, call me any, anytime Call me
-        (call me) I'll arrive You can call me any day or night Call me
+        <form action="action_page.php">
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Your message.."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
       </div>
     </div>
   </body>
