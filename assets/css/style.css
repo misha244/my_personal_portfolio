@@ -95,7 +95,7 @@ body {
   height: 4.2rem;
 }
 
-/* Text Section properties */
+/* Projects Section properties */
 .section-container {
   background-color: palegreen;
   display: flex;
@@ -123,9 +123,44 @@ body {
   font-size: 2rem;
 }
 .contact-info {
+  background-color: yellow;
+  width: 50%;
 }
+
+/* Contact form properties */
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: blue;
+}
+
 .contact-form-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
+
 /* About me Page properties */
 
 /* About section properties */
