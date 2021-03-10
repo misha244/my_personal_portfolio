@@ -2,7 +2,7 @@ html {
   font-size: 10px;
 }
 body {
-  background-color: honeydew;
+  background-color: lightpink;
   font-family: Helvetica;
 }
 /* Nav Bar properties*/
@@ -12,9 +12,9 @@ body {
 }
 .navbar {
   padding: 1rem 1rem;
-  background-color: mediumblue;
+  background-color: #212322;
   font-size: 2rem;
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   text-align: right;
@@ -26,7 +26,7 @@ body {
 }
 /* Photo Section properties */
 .main-section {
-  background-color: seashell;
+  background-color: navajowhite;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -52,17 +52,21 @@ body {
 }
 /* Social Media Links properties */
 .social-media {
+  display: flex;
+  flex-direction: row;
   background-color: yellow;
   padding: 0.75rem;
   font-size: 2rem;
-  text-align: center;
   position: sticky;
   bottom: 0%;
+  justify-content: center;
+}
+.icon-container {
+  margin: 0 2rem 0 2rem;
 }
 .icon {
-  margin: 0 2rem 0 2rem;
-  width: 42px;
-  height: 42px;
+  width: 4.2rem;
+  height: 4.2rem;
 }
 
 /* Text Section properties */
