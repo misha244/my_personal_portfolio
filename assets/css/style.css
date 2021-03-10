@@ -97,16 +97,23 @@ body {
 
 /* Text Section properties */
 .section-container {
+  background-color: palegreen;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   background-color: paleturquoise;
   font-size: 1.5rem;
-  width: 60vh;
-  margin: 1rem;
+  padding: 1rem;
+  margin: 2rem;
+}
+.image {
+  padding: 1rem;
 }
 /* Contact Section properties */
 .contact-container {
@@ -124,7 +131,15 @@ body {
 /* About section properties */
 .about {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: auto;
   font-size: 2.5rem;
+  margin: 1rem;
+}
+.about-text {
+  margin: 1rem;
+}
+.hero-image {
+  width: auto;
+  height: auto;
 }
