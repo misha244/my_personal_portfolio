@@ -62,9 +62,31 @@ body {
   justify-content: center;
 }
 .icon-container {
+  width: 4.2rem;
+  height: 4.2rem;
+  position: relative;
+  overflow: hidden;
+}
+.icon-container.fade {
   margin: 0 2rem 0 2rem;
 }
-.icon {
+
+.icon-container.fade img:hover {
+  opacity: 0;
+}
+.icon:hover img {
+  margin-top: -100px;
+}
+
+.icon-container img {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
+  display: block;
+}
+
+.icon-container.fade img {
+  position: absolute;
   width: 4.2rem;
   height: 4.2rem;
 }
