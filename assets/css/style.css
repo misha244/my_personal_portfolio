@@ -61,6 +61,8 @@ body {
 }
 .icon {
   margin: 0 2rem 0 2rem;
+  width: 42px;
+  height: 42px;
 }
 
 /* Text Section properties */
