@@ -117,12 +117,13 @@ body {
   padding: 1rem;
 }
 /* Contact Section properties */
+/* Contact container properties */
 .contact-container {
   background-color: aquamarine;
   display: flex;
   flex-direction: row;
   font-size: 2rem;
-  margin: auto;
+  position: static;
 }
 .contact-info {
   background-color: #212322;
@@ -148,11 +149,14 @@ textarea {
   margin-top: 0.5rem;
   margin-bottom: 1.6rem;
 }
+.label-container {
+  margin: 1rem;
+}
 .label {
-  margin: 1rem 1rem 1rem 1rem;
   padding-bottom: 1rem;
   line-height: 1rem;
   font-size: 2rem;
+  color: whitesmoke;
 }
 input[type="submit"] {
   background-color: maroon;
@@ -179,6 +183,7 @@ input[type="submit"]:hover {
 .about-text {
   margin: 1rem;
 }
+/* Hero Image properties */
 .hero-image {
   width: auto;
   height: auto;
