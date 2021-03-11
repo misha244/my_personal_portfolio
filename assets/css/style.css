@@ -176,15 +176,16 @@ input[type="submit"]:hover {
 .about {
   display: flex;
   flex-direction: column;
-  width: auto;
   font-size: 1.8rem;
   margin: 1rem;
+  padding: 0 30rem 0 30rem;
 }
 .about-text {
   margin: 1rem;
 }
 /* Hero Image properties */
+.hero-image-container {
+}
 .hero-image {
-  width: auto;
-  height: auto;
+  height: 45rem;
 }
