@@ -99,28 +99,32 @@
       </div>
       <div class="contact-form-container">
         <form action="action_page.php">
-          <label id="label">Drop a message:</label>
-          <input
-            type="text"
-            id="fname"
-            name="firstname"
-            placeholder="Your name.."
-          />
+          <div><label class="label">Drop a message:</label></div>
+          <div>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              id="email"
+              name="emailaddress"
+              placeholder="Your email address.."
+            />
+          </div>
+          <div>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Your message.."
+            ></textarea>
+          </div>
 
-          <input
-            type="text"
-            id="lname"
-            name="lastname"
-            placeholder="Your last name.."
-          />
-          <textarea
-            id="subject"
-            name="subject"
-            placeholder="Your message.."
-            style="height: 200px"
-          ></textarea>
-
-          <input type="submit" value="Submit" />
+          <div><input type="submit" value="Submit" /></div>
         </form>
       </div>
     </div>
