@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 html {
   font-size: 10px;
   font-family: Arial, Helvetica, sans-serif;
@@ -12,7 +15,7 @@ body {
   padding: 1rem 1rem;
   background-color: #212322;
   font-size: 2rem;
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 0;
   text-align: right;
@@ -94,24 +97,38 @@ body {
 }
 
 /* Projects Section properties */
-.section-container {
-  background-color: rgb(255, 255, 167);
+h2 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 3rem 2rem 2rem 2rem;
+  font-weight: bold;
+}
+.main-project {
+  background-color: teal;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  box-sizing: border-box;
+  justify-content: center;
 }
-.section {
+.other-projects {
+  background-color: salmon;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  align-items: center;
+}
+.section {
   background-color: white;
   font-size: 1.5rem;
-  padding: 1rem;
-  margin: 2rem;
+  padding: 2rem;
+  margin: 0.5rem;
+  justify-content: center;
 }
 .image {
   padding: 1rem;
+}
+.image-1 {
+  max-width: 200px;
 }
 /* Contact Section properties */
 /* Contact container properties */
