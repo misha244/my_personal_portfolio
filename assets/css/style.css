@@ -4,20 +4,18 @@ html {
 }
 body {
   background-color: lightpink;
-  font-family: Helvetica;
 }
 /* Nav Bar properties*/
 .navbar-container {
   background-color: olive;
-  padding: 1rem, 0;
 }
 .navbar {
   padding: 1rem 1rem;
   background-color: #212322;
   font-size: 2rem;
   position: fixed;
-  top: 0;
   width: 100%;
+  top: 0;
   text-align: right;
 }
 .navbar-links {
@@ -177,7 +175,7 @@ input[type="submit"]:hover {
   display: flex;
   flex-direction: column;
   margin: 1rem;
-  padding: 0 30rem 0 30rem;
+  padding: 1rem;
 }
 .about-text {
   margin: 1rem;
@@ -188,5 +186,5 @@ input[type="submit"]:hover {
 .hero-image-container {
 }
 .hero-image {
-  height: 45rem;
+  height: 40rem;
 }

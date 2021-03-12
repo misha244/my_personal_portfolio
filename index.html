@@ -9,14 +9,14 @@
     <title>Mihaela Shtebunaeva</title>
   </head>
   <body>
-    <div class="navbar-container">
-      <nav class="navbar">
-        <a class="navbar-links" href="index.html">Home</a>
-        <a class="navbar-links" href="./assets/html/about.html">About</a>
-        <a class="navbar-links" href="#projects-scroll">Projects</a>
-        <a class="navbar-links" href="#contact-scroll">Contact</a>
-      </nav>
-    </div>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a class="navbar-links" href="/index.html">Home</a>
+        <a class="navbar-links" href="about.html">About</a>
+        <a class="navbar-links" href="index.html#projects-scroll">Projects</a>
+        <a class="navbar-links" href="index.html#contact-scroll">Contact</a>
+      </div>
+    </nav>
     <main class="main-section">
       <div class="profile-photo-container">
         <img
@@ -94,42 +94,44 @@
         </div>
       </section>
     </div>
-    <div id="contact-scroll" class="contact-container">
-      <div class="contact-info">
-        You can find me at P. Sherman 46, Wallaby Way, Sydney
-      </div>
-      <div class="contact-form-container">
-        <form action="action_page.php">
-          <div class="label-container">
-            <label class="label">Drop me a message:</label>
-          </div>
-          <div>
-            <input
-              type="text"
-              id="fname"
-              name="firstname"
-              placeholder="Your name.."
-            />
-          </div>
-          <div>
-            <input
-              type="text"
-              id="email"
-              name="emailaddress"
-              placeholder="Your email address.."
-            />
-          </div>
-          <div>
-            <textarea
-              id="subject"
-              name="subject"
-              placeholder="Your message.."
-            ></textarea>
-          </div>
+    <footer>
+      <div id="contact-scroll" class="contact-container">
+        <div class="contact-info">
+          You can find me at P. Sherman 46, Wallaby Way, Sydney
+        </div>
+        <div class="contact-form-container">
+          <form action="action_page.php">
+            <div class="label-container">
+              <label class="label">Drop me a message:</label>
+            </div>
+            <div>
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Your name.."
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                id="email"
+                name="emailaddress"
+                placeholder="Your email address.."
+              />
+            </div>
+            <div>
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Your message.."
+              ></textarea>
+            </div>
 
-          <div><input type="submit" value="Submit" /></div>
-        </form>
+            <div><input type="submit" value="Submit" /></div>
+          </form>
+        </div>
       </div>
-    </div>
+    </footer>
   </body>
 </html>
