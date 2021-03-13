@@ -116,6 +116,7 @@ h2 {
   flex-direction: row;
   flex-wrap: nowrap;
   margin: 0 3rem 0 3rem;
+  align-content: center;
 }
 .section {
   background-color: white;
