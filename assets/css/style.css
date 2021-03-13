@@ -6,7 +6,7 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  background-image: url(//assets/images/hero-image-main.png);
+  background-image: url(../assets/images/hero-image-main.png);
 }
 /* Nav Bar properties*/
 .navbar-container {
