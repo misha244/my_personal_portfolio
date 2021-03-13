@@ -98,7 +98,7 @@ body {
 }
 
 /* Projects Section properties */
-h2 {
+h1 {
   background-color: #212322;
   text-align: center;
   font-size: 3rem;
@@ -146,10 +146,11 @@ h2 {
   padding: 1rem;
 }
 .about-text {
-  background-color: rgba(160, 160, 150, 0.4);
+  background-color: rgba(235, 235, 235, 0.9);
   margin: 1rem;
   font-size: 2rem;
   text-align: center;
+  padding: 0 10rem 0 10rem;
 }
 /* Hero Image properties */
 .hero-image-container {
@@ -168,38 +169,3 @@ footer {
 }
 
 /* Media query properties */
-
-@media screen and (max-width: 1024px) {
-  header {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .navbar {
-    font-size: 1.5em;
-  }
-
-  .other-projects,
-  .about {
-    justify-content: center;
-  }
-  .hero-image {
-    justify-content: center;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .item--portfolio {
-    flex-basis: 70%;
-  }
-
-  #first-project {
-    flex-basis: 70%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .container {
-    font-size: 0.7em;
-  }
-}
