@@ -6,7 +6,7 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  background-color: lightpink;
+  background-image: url(/assets/images/hero-image-main.png);
 }
 /* Nav Bar properties*/
 .navbar-container {
@@ -56,6 +56,7 @@ body {
   display: flex;
   flex-direction: row;
   background-color: white;
+  border: 1px solid #212322;
   padding: 0.75rem;
   font-size: 2rem;
   position: sticky;
@@ -98,10 +99,12 @@ body {
 
 /* Projects Section properties */
 h2 {
+  background-color: #212322;
   text-align: center;
   font-size: 3rem;
   padding: 3rem 2rem 2rem 2rem;
   font-weight: bold;
+  color: white;
 }
 .main-project {
   background-color: teal;
@@ -133,6 +136,27 @@ h2 {
 .image-1 {
   width: 300px;
 }
+
+/* About section properties */
+.about {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+}
+.about-text {
+  margin: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+/* Hero Image properties */
+.hero-image-container {
+}
+.hero-image {
+  height: 40rem;
+  margin: 10rem 25rem 0rem 25rem;
+}
+
 /* Contact Section properties */
 /* Contact container properties */
 .contact-container {
@@ -175,8 +199,8 @@ textarea {
   color: whitesmoke;
 }
 input[type="submit"] {
-  background-color: maroon;
-  color: white;
+  background-color: yellow;
+  color: #212322;
   padding: 1rem;
   border: none;
   cursor: pointer;
@@ -184,25 +208,5 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: blue;
-}
-
-/* About me Page properties */
-
-/* About section properties */
-.about {
-  display: flex;
-  flex-direction: column;
-  margin: 1rem;
-  padding: 1rem;
-}
-.about-text {
-  margin: 1rem;
-  font-size: 2rem;
-  text-align: center;
-}
-/* Hero Image properties */
-.hero-image-container {
-}
-.hero-image {
-  height: 40rem;
+  color: white;
 }
