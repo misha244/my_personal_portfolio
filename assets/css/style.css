@@ -42,7 +42,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 25rem;
-  border: solid red 1.5rem;
+  border: solid #212322 1.5rem;
   border-radius: 20rem;
 }
 .header {
@@ -119,6 +119,7 @@ h2 {
   flex-direction: row;
   flex-wrap: nowrap;
   margin: 0 3rem 0 3rem;
+  justify-content: center;
   align-content: center;
 }
 .section {
@@ -145,6 +146,7 @@ h2 {
   padding: 1rem;
 }
 .about-text {
+  background-color: rgba(160, 160, 150, 0.4);
   margin: 1rem;
   font-size: 2rem;
   text-align: center;
@@ -156,57 +158,48 @@ h2 {
   height: 40rem;
   margin: 10rem 25rem 0rem 25rem;
 }
-
-/* Contact Section properties */
-/* Contact container properties */
-.contact-container {
-  background-color: aquamarine;
-  display: flex;
-  font-size: 2rem;
-  position: static;
-}
-.contact-info {
+/* Footer properties */
+footer {
   background-color: #212322;
-  width: 100vh;
-  padding: 1rem;
-  color: whitesmoke;
-}
-
-/* Contact form properties */
-.contact-form-container {
-  background-color: red;
-  padding: 1rem;
-  font-size: 1.5rem;
-  height: 30%;
-}
-
-input[type="text"],
-textarea {
-  width: 100vh;
-  padding: 1rem;
-  border: 1px solid #ccc;
-  box-sizing: content-box;
-  margin-top: 0.5rem;
-  margin-bottom: 1.6rem;
-}
-.label-container {
-  margin: 1rem;
-}
-.label {
-  padding-bottom: 1rem;
-  line-height: 1rem;
+  text-align: center;
   font-size: 2rem;
-  color: whitesmoke;
-}
-input[type="submit"] {
-  background-color: yellow;
-  color: #212322;
-  padding: 1rem;
-  border: none;
-  cursor: pointer;
+  padding: 1.5rem 0rem 1rem 0rem;
+  color: white;
 }
 
-input[type="submit"]:hover {
-  background-color: blue;
-  color: white;
+/* Media query properties */
+
+@media screen and (max-width: 1024px) {
+  header {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar {
+    font-size: 1.5em;
+  }
+
+  .other-projects,
+  .about {
+    justify-content: center;
+  }
+  .hero-image {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .item--portfolio {
+    flex-basis: 70%;
+  }
+
+  #first-project {
+    flex-basis: 70%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    font-size: 0.7em;
+  }
 }
