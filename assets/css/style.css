@@ -12,12 +12,11 @@ body {
 .navbar-container {
 }
 .navbar {
-  padding: 1rem 1rem;
+  padding: 1rem 0 1rem 0;
   background-color: #212322;
   font-size: 2rem;
   position: absolute;
-  width: 100%;
-  top: 0;
+  width: 100vw;
   text-align: right;
 }
 .navbar-links {
@@ -41,7 +40,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25rem;
+  width: 25vw;
   border: solid #212322 1.5rem;
   border-radius: 20rem;
 }
@@ -119,15 +118,17 @@ h2 {
   flex-direction: row;
   box-sizing: border-box;
   justify-content: center;
+  margin: 1rem 3rem 2rem 3rem;
 }
 .other-projects-container {
-  background-color: yellow;
+  background-color: rgba(255, 255, 0, 0.8);
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  margin: 0 3rem 0 3rem;
+  margin: 1rem 3rem 2rem 3rem;
   justify-content: center;
   align-content: center;
+  border: 1px solid white;
 }
 .section {
   background-color: white;
@@ -141,37 +142,36 @@ h2 {
 }
 .project-image {
   padding: 1rem;
-  width: auto;
-  height: 400px;
+  width: 40vw;
 }
 .project-image-1 {
-  width: auto;
-  height: 200px;
+  width: 25vw;
 }
 
 /* About section properties */
 .about-main-container {
   display: flex;
   flex-direction: column;
-  margin: 1rem;
-  padding: 10rem 5rem 0 5rem;
+  margin: 2rem;
+  padding: 1rem;
   justify-content: center;
 }
 .about-text {
-  background-color: rgba(235, 235, 235, 0.9);
+  background-color: rgba(168, 168, 168, 0.7);
   margin: 1rem;
   font-size: 2rem;
   text-align: center;
-  padding: 0 10rem 0 10rem;
+  padding: 1rem 0 1rem 0;
 }
 /* Hero Image properties */
 .about-image-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  padding: 5rem 5rem 0 5rem;
 }
 .about-image {
+  width: 80vw;
+  justify-content: center;
 }
 /* Footer properties */
 footer {
@@ -186,42 +186,57 @@ footer {
 
 /* Laptops */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
-  .about-image {
-    width: auto;
-    height: auto;
-  }
 }
 /* Tablets - portrait and landscape */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .about-image {
-    width: auto;
-    height: auto;
+  .other-projects-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .about-text {
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
   }
 }
 
 /* iPhone 5, 5S, 5C and 5SE */
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  .about-image {
-    width: auto;
-    height: auto;
-  }
   .other-projects-container {
     flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .about-text {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+  }
+  .project-image-1 {
+    width: 60vw;
   }
 }
 
 /* iPhone 6+, 7+ and 8+ */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
-  .about-image {
-    width: auto;
-    height: auto;
+  .other-projects-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .about-text {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
   }
 }
 
 /* Galaxy S4, S5 and Note 3 */
 @media screen and (device-width: 320px) and (device-height: 640px) {
-  .about-image {
-    width: auto;
-    height: auto;
+  .other-projects-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .about-text {
+    padding: 0;
+    margin: 0;
   }
 }
