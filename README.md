@@ -33,3 +33,5 @@ This is my personal portfolio. I've created it as a homework during week 2 of my
 #### Phone view _(iPhone 6+, 7+ and 8+)_
 
 ![iPhone](assets/images/iphone6-7-8.png)
+
+## Fin.
