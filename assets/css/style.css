@@ -114,14 +114,14 @@ h2 {
   color: #212322;
 }
 .main-project {
-  background-color: teal;
+  background-color: rgba(255, 0, 0, 0.8);
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
   justify-content: center;
 }
-.other-projects {
-  background-color: salmon;
+.other-projects-container {
+  background-color: yellow;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -131,18 +131,22 @@ h2 {
 }
 .section {
   background-color: white;
+  display: flex;
+  flex-direction: column;
   font-size: 1.5rem;
-  text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   margin: 0.5rem;
+  text-align: center;
   justify-content: center;
 }
-.image {
+.project-image {
   padding: 1rem;
-  width: 60%;
+  width: auto;
+  height: 400px;
 }
-.image-1 {
-  width: 300px;
+.project-image-1 {
+  width: auto;
+  height: 200px;
 }
 
 /* About section properties */
@@ -150,7 +154,7 @@ h2 {
   display: flex;
   flex-direction: column;
   margin: 1rem;
-  padding: 5rem;
+  padding: 10rem 5rem 0 5rem;
   justify-content: center;
 }
 .about-text {
@@ -165,6 +169,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 5rem 5rem 0 5rem;
 }
 .about-image {
 }
@@ -199,6 +204,9 @@ footer {
   .about-image {
     width: auto;
     height: auto;
+  }
+  .other-projects-container {
+    flex-direction: column;
   }
 }
 
