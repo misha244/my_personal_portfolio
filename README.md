@@ -2,15 +2,17 @@
 
 ## Table of content :
 
-- _Project Link_
-- _About my Project_
-- _Screenshots_
+- [_Project Link_](#project-link)
+- [_About my Project_](#about-my-project)
+- [_Screenshots_](#screenshots)
 
 ## Project Link
 
 [View my portfolio here!](https://misha244.github.io/my_personal_portfolio/)
 
 ## About my Project
+
+This is my personal portfolio. I've created it as a homework during week 2 of my Coding Bootcamp, but will be updating it as I complete more projects and further develop my skills. Ultimately this portfolio will hopefully serve as a stepping stone in my future career in tech. I've utilised the HTML/CSS skills I've gained so far and gained a few more, while working on it. I have incorporated media queries, flex container and CSS variables to create a responsive and functional portfolio.
 
 [More information on the design of my page](assets/images/inspo-images/../inspo_images/Portfolio-moodboard.pdf)
 
