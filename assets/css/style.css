@@ -146,11 +146,12 @@ h2 {
 }
 
 /* About section properties */
-.about {
+.about-main-container {
   display: flex;
   flex-direction: column;
   margin: 1rem;
-  padding: 1rem;
+  padding: 5rem;
+  justify-content: center;
 }
 .about-text {
   background-color: rgba(235, 235, 235, 0.9);
@@ -160,11 +161,12 @@ h2 {
   padding: 0 10rem 0 10rem;
 }
 /* Hero Image properties */
-.hero-image-container {
+.about-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.hero-image {
-  height: 40rem;
-  margin: 10rem 25rem 0rem 25rem;
+.about-image {
 }
 /* Footer properties */
 footer {
@@ -175,4 +177,43 @@ footer {
   color: white;
 }
 
-/* Media query properties */
+/* Media queries */
+
+/* Laptops */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+  .about-image {
+    width: auto;
+    height: auto;
+  }
+}
+/* Tablets - portrait and landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .about-image {
+    width: auto;
+    height: auto;
+  }
+}
+
+/* iPhone 5, 5S, 5C and 5SE */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .about-image {
+    width: auto;
+    height: auto;
+  }
+}
+
+/* iPhone 6+, 7+ and 8+ */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+  .about-image {
+    width: auto;
+    height: auto;
+  }
+}
+
+/* Galaxy S4, S5 and Note 3 */
+@media screen and (device-width: 320px) and (device-height: 640px) {
+  .about-image {
+    width: auto;
+    height: auto;
+  }
+}
