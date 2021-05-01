@@ -20,18 +20,18 @@ This is my personal portfolio. I've created it as a homework during week 2 of my
 
 #### Desktop/Laptop view
 
-![Desktop/Laptop](assets/images/laptop-screen.png)
+![Desktop/Laptop](assets/images/screenshots/laptop-screen.png)
 
 #### Tablet view
 
-![Tablet](assets/images/tablet.png)
+![Tablet](assets/images/screenshots/tablet.png)
 
 #### Phone view _(iPhone 5, 5S, 5C and 5SE)_
 
-![iPhone5](assets/images/iphone-5S.png)
+![iPhone5](assets/images/screenshots/iphone-5S.png)
 
 #### Phone view _(iPhone 6+, 7+ and 8+)_
 
-![iPhone](assets/images/iphone6-7-8.png)
+![iPhone](assets/images/screenshots/iphone6-7-8.png)
 
 ## Fin.
