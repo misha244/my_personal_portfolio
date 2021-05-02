@@ -137,7 +137,6 @@ h3 {
   font-size: 1.5rem;
   padding: 1rem;
   margin: 2.5rem;
-  text-align: center;
   justify-content: center;
 }
 
@@ -145,7 +144,9 @@ h3 {
   width: 25vw;
 }
 .description-container {
-  width: 15vw;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  text-align: center;
 }
 
 /* About section properties */
