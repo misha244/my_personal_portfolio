@@ -24,28 +24,27 @@ body {
 }
 /* Photo Section properties */
 .main-section {
-  background-color: navajowhite;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .profile-photo-container {
-  padding: 20rem 3rem 2rem 3rem;
+  padding: 15rem 3rem 2rem 3rem;
 }
 .profile-photo {
-  background-color: orchid;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25vw;
+  margin: auto;
+  width: 20vw;
   border: solid #212322 1.5rem;
   border-radius: 20rem;
 }
 .intro {
-  background-color: rgba(168, 168, 168, 0.7);
+  background-color: rgba(207, 207, 207, 0.7);
+  border-radius: 20px;
   width: 30vw;
   margin: auto;
+  margin-top: 2rem;
   font-size: 3rem;
   font-weight: bolder;
   text-align: center;
@@ -108,21 +107,16 @@ h1 {
 }
 h2 {
   text-align: center;
-  padding: 1rem 1rem 1rem 1rem;
-  font-size: 2rem;
+  padding: 0.5rem;
+  font-size: 3rem;
   font-weight: bold;
   color: #212322;
   text-shadow: 2px 2px rgb(177, 177, 177);
 }
-h3 {
-  text-align: center;
-  font-size: 2rem;
-  color: white;
-  text-shadow: 2px 2px #ffffff;
-}
 
 .projects-container {
-  background-color: #be1e2d;
+  background-color: rgb(255, 222, 23, 0.8);
+  border: solid #212322 0.5rem;
   display: flex;
   flex-direction: row;
   margin: 5rem 2rem;
@@ -130,10 +124,11 @@ h3 {
   justify-content: center;
 }
 .project {
-  background-color: #ffffff;
+  background-color: #fcfcfc;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
-  font-size: 1.5rem;
   margin: 2rem;
   align-items: center;
 }
@@ -144,8 +139,10 @@ h3 {
   object-fit: cover;
 }
 .description-container {
+  width: 25vw;
   font-size: 1.5rem;
-  padding: 1rem;
+  padding: 2rem 0rem;
+  margin: 0rem 1rem;
   text-align: center;
 }
 
@@ -162,7 +159,8 @@ h3 {
   width: 60vw;
   padding: 2rem;
   margin-bottom: 5rem;
-  background-color: rgba(168, 168, 168, 0.5);
+  background-color: rgba(207, 207, 207, 0.5);
+  border-radius: 20px;
   font-size: 2rem;
   text-align: center;
   text-shadow: 1px 1px rgb(177, 177, 177);
@@ -183,7 +181,8 @@ footer {
   text-align: center;
   font-size: 2rem;
   padding: 1rem 0rem;
-  color: white;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px #6b6b6b;
 }
 
 /* Media queries */
