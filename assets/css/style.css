@@ -15,18 +15,18 @@ body {
   background-color: #212322;
   font-size: 2.5rem;
   position: sticky;
-  text-align: initial;
+  text-align: center;
 }
 .navbar-links {
-  margin: 4rem;
+  margin-left: 4rem;
+  margin-right: 3rem;
   color: white;
   text-decoration: none;
 }
 /* Photo Section properties */
 .main-section {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .profile-photo-container {
@@ -42,7 +42,7 @@ body {
 .intro {
   background-color: rgba(207, 207, 207, 0.7);
   border-radius: 20px;
-  width: 30vw;
+  width: 34vw;
   margin: auto;
   margin-top: 2rem;
   font-size: 3rem;
@@ -105,7 +105,7 @@ h1 {
   font-weight: bold;
   color: white;
 }
-h2 {
+.project-title {
   text-align: center;
   padding: 0.5rem;
   font-size: 3rem;
@@ -131,11 +131,12 @@ h2 {
   flex-direction: column;
   margin: 2rem;
   align-items: center;
+  width: 26vw;
 }
 
-.project-image-1 {
-  width: 28vw;
-  height: 15vw;
+.project-image {
+  width: 26vw;
+  height: 14vw;
   object-fit: cover;
 }
 .description-container {
@@ -188,58 +189,43 @@ footer {
 /* Media queries */
 
 /* Laptops */
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+@media screen and (max-device-width: 1600px) {
 }
 /* Tablets - portrait and landscape */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media screen and (max-device-width: 1024px) {
   .other-projects-container {
     flex-direction: column;
     flex-wrap: wrap;
   }
   .about-text {
-    padding: 0;
-    margin: 0;
     font-size: 2rem;
   }
-}
-
-/* iPhone 5, 5S, 5C and 5SE */
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  .other-projects-container {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .about-text {
-    padding: 0;
-    margin: 0;
-    font-size: 1rem;
-  }
-  .project-image-1 {
-    width: 60vw;
+  .navbar,
+  h1,
+  .project-title,
+  .intro {
+    font-size: 1.8rem;
   }
 }
-
 /* iPhone 6+, 7+ and 8+ */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+@media screen and (max-device-width: 768px) {
   .other-projects-container {
     flex-direction: column;
     flex-wrap: wrap;
   }
   .about-text {
-    padding: 0;
-    margin: 0;
     font-size: 1rem;
   }
-}
-
-/* Galaxy S4, S5 and Note 3 */
-@media screen and (device-width: 320px) and (device-height: 640px) {
-  .other-projects-container {
-    flex-direction: column;
-    flex-wrap: wrap;
+  .navbar,
+  h1,
+  .project-title,
+  .intro {
+    font-size: 1.8rem;
   }
-  .about-text {
-    padding: 0;
-    margin: 0;
+  .description-container {
+    font-size: 0.8rem;
   }
+  .navbar-links {
+    margin-left: 1.5rem;
+    margin-right: 0;
 }
